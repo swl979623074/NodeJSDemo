@@ -1,0 +1,26 @@
+Table of Contents
+	Readline
+		Class: Interface
+			rl.close()
+			rl.pause()
+			rl.prompt([preserveCursor])
+			rl.question(query, callback)
+			rl.resume()
+			rl.setPrompt(prompt)
+			rl.write(data[, key])
+		Events
+			Event: 'close'
+			Event: 'line'
+			Event: 'pause'
+			Event: 'resume'
+			Event: 'SIGCONT'
+			Event: 'SIGINT'
+			Event: 'SIGTSTP'
+		Example: Tiny CLI
+		Example: Read File Stream Line-by-Line
+		readline.clearLine(stream, dir)
+		readline.clearScreenDown(stream)
+		readline.createInterface(options)
+		readline.cursorTo(stream, x, y)
+		readline.emitKeypressEvents(stream[, interface])
+		readline.moveCursor(stream, dx, dy)

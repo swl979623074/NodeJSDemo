@@ -1,0 +1,62 @@
+/**
+Table of Contents
+	process
+		Event: 'beforeExit'
+		Event: 'disconnect'
+		Event: 'exit'
+		Event: 'message'
+		Event: 'rejectionHandled'
+		Event: 'uncaughtException'
+			Warning: Using 'uncaughtException' correctly
+		Event: 'unhandledRejection'
+		Event: 'warning'
+			Emitting custom warnings
+			Emitting custom deprecation warnings
+		Exit Codes
+		Signal Events
+		process.abort()
+		process.arch
+		process.argv
+		process.chdir(directory)
+		process.config
+		process.connected
+		process.cpuUsage([previousValue])
+		process.cwd()
+		process.disconnect()
+		process.env
+		process.emitWarning(warning[, name][, ctor])
+			Avoiding duplicate warnings
+		process.execArgv
+		process.execPath
+		process.exit([code])
+		process.exitCode
+		process.getegid()
+		process.geteuid()
+		process.getgid()
+		process.getgroups()
+		process.getuid()
+		process.hrtime()
+		process.initgroups(user, extra_group)
+		process.kill(pid[, signal])
+		process.mainModule
+		process.memoryUsage()
+		process.nextTick(callback[, arg][, ...])
+		process.pid
+		process.platform
+		process.release
+		process.send(message[, sendHandle[, options]][, callback])
+		process.setegid(id)
+		process.seteuid(id)
+		process.setgid(id)
+		process.setgroups(groups)
+		process.setuid(id)
+		process.stderr
+		process.stdin
+		process.stdout
+		process.title
+		process.umask([mask])
+		process.uptime()
+		process.version
+		process.versions
+*/
+

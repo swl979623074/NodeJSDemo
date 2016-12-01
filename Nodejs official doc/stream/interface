@@ -1,0 +1,63 @@
+Table of Contents
+	Stream
+		API for Stream Consumers
+			Class: stream.Duplex
+			Class: stream.Readable
+				Event: 'close'
+				Event: 'data'
+				Event: 'end'
+				Event: 'error'
+				Event: 'readable'
+				readable.isPaused()
+				readable.pause()
+				readable.pipe(destination[, options])
+				readable.read([size])
+				readable.resume()
+				readable.setEncoding(encoding)
+				readable.unpipe([destination])
+				readable.unshift(chunk)
+				readable.wrap(stream)
+			Class: stream.Transform
+			Class: stream.Writable
+				Event: 'close'
+				Event: 'drain'
+				Event: 'error'
+				Event: 'finish'
+				Event: 'pipe'
+				Event: 'unpipe'
+				writable.cork()
+				writable.end([chunk][, encoding][, callback])
+				writable.setDefaultEncoding(encoding)
+				writable.uncork()
+				writable.write(chunk[, encoding][, callback])
+		API for Stream Implementors
+			Class: stream.Duplex
+				new stream.Duplex(options)
+			Class: stream.PassThrough
+			Class: stream.Readable
+				new stream.Readable([options])
+				readable._read(size)
+				readable.push(chunk[, encoding])
+				Example: A Counting Stream
+				Example: SimpleProtocol v1 (Sub-optimal)
+			Class: stream.Transform
+				new stream.Transform([options])
+				Events: 'finish' and 'end'
+				transform._flush(callback)
+				transform._transform(chunk, encoding, callback)
+				Example: SimpleProtocol parser v2
+			Class: stream.Writable
+				new stream.Writable([options])
+				writable._write(chunk, encoding, callback)
+				writable._writev(chunks, callback)
+		Simplified Constructor API
+			Duplex
+			Readable
+			Transform
+			Writable
+		Streams: Under the Hood
+			Buffering
+			Compatibility with Older Node.js Versions
+			Object Mode
+			stream.read(0)
+			stream.push('')
