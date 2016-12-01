@@ -1,0 +1,9 @@
+1. based on nodejs as server and analog JSONP
+	使用nodejs做为服务器，模拟JSONP
+2.based on nodejs as server and return a web
+	使用nodejs做为服务器，请求并返回一个web界面，包括多静态资源的解析
+3.node server client ajax
+	封装ajax请求
+	将数据制作为excel表格
+4.Nodejs official doc
+	nodejs官方文档的demo
